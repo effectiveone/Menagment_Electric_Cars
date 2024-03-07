@@ -29,57 +29,27 @@ Welcome to our Electric Cars Management System! This project is designed to make
 
 ## Getting Started
 
-    <p>
-        To run the application using Docker, follow these steps:
-    </p>
+To run the application using Docker, follow these steps:
 
-    <ol>
-        <li>
-            <strong>Install Docker and Docker Compose:</strong>
-            Make sure you have Docker and Docker Compose installed on your machine.
-        </li>
+1. **Install Docker and Docker Compose:**
+   Make sure you have Docker and Docker Compose installed on your machine.
 
-        <li>
-            <strong>Clone the repository:</strong>
-            Clone the repository to your local environment:
-            <pre><code>git clone [repository_url]
+2. **Clone the repository:**
+   Clone the repository to your local environment:
+   ```bash
+   git clone [repository_url]
+   cd [repository_name]
+   ```
 
-cd [repository_name]</code></pre>
+- **Build and run the application using Docker Compose:**
+  In the project directory containing the `docker-compose.yml` file, run the following command:
 
-</li>
+````bash
+docker-compose up -d --build ```
 
-        <li>
-            <strong>Build and run the application using Docker Compose:</strong>
-            In the project directory containing the `docker-compose.yml` file, run the following command:
-            <pre><code>docker-compose up -d --build</code></pre>
-            This command will build Docker images and start containers as per the configuration in the `docker-compose.yml` file.
-        </li>
+his command will build Docker images and start containers as per the configuration in the docker-compose.yml file.
 
-        <li>
-            <strong>Install dependencies:</strong>
-            Open a terminal and navigate to the project directory (where `package.json` is located), then run:
-            <pre><code>npm install</code></pre>
-            This command will install all project dependencies.
-        </li>
-
-        <li>
-            <strong>Start the front-end server:</strong>
-            After installing dependencies, start the front-end server with:
-            <pre><code>npm run start</code></pre>
-            The frontend should be accessible at <code>localhost:3000</code>.
-        </li>
-
-        <li>
-            <strong>Start the back-end server:</strong>
-            Next, start the backend server with:
-            <pre><code>npm run server</code></pre>
-            The backend server should be accessible at the specified address and port.
-        </li>
-    </ol>
-
-    <p>
-        Now, your application should be running in Docker containers, with the frontend and backend operating on their respective ports. Open a web browser and check <code>localhost:3000</code> for the frontend and the specified address for the backend.
-    </p>
+Now, your application should be running in Docker containers, with the frontend and backend operating on their respective ports. Open a web browser and check localhost:3000 for the frontend and the specified address for the backend.
 
 ## Contributions
 
@@ -94,3 +64,4 @@ In the future, we plan to add new features to the application, such as the abili
 All rights reserved
 ##👨‍💻 Connect with me
 Konrad.gruca90@gmail.com
+````
