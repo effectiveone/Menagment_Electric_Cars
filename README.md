@@ -44,8 +44,9 @@ To run the application using Docker, follow these steps:
 - **Build and run the application using Docker Compose:**
   In the project directory containing the `docker-compose.yml` file, run the following command:
 
-````bash
-docker-compose up -d --build ```
+```bash
+docker-compose up -d --build
+```
 
 his command will build Docker images and start containers as per the configuration in the docker-compose.yml file.
 
@@ -64,4 +65,7 @@ In the future, we plan to add new features to the application, such as the abili
 All rights reserved
 ##👨‍💻 Connect with me
 Konrad.gruca90@gmail.com
-````
+
+```
+
+```
