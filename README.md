@@ -52,6 +52,15 @@ his command will build Docker images and start containers as per the configurati
 
 Now, your application should be running in Docker containers, with the frontend and backend operating on their respective ports. Open a web browser and check localhost:3000 for the frontend and the specified address for the backend.
 
+## Dummy Data and Admin Login
+
+This project includes built-in dummy data that is saved during the build process. To access additional features, it's recommended to log in as an administrator. Here are the details:
+
+- **Admin Email:** admin@example.com
+- **Admin Password:** admin12
+
+After logging in as an administrator, you will have access to additional functionalities and data, allowing you to explore and test various aspects of the Electric Cars Management System.
+
 ## Contributions
 
 We welcome contributions to the project! If you have any ideas or issues you'd like to report, feel free to create a new issue or pull request.
